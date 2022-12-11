@@ -1,7 +1,7 @@
 import React from "react";
 import ParticlesBg from 'particles-bg';
 
-const HeroImg = () => {
+const MainBkgd = () => {
     return (
         <div className="particles">
             <ParticlesBg num={200} type="cobweb" bg={true} />
@@ -9,4 +9,4 @@ const HeroImg = () => {
     )
 }
 
-export default HeroImg;
+export default MainBkgd;
